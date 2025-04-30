@@ -1,0 +1,27 @@
+.box{
+    border: 1px solid black;
+    height: 200px;
+    width: 250px;
+    background-image: linear-gradient(red,blue);
+    background-image: linear-gradient(red,blue,black,green);
+    background-image: linear-gradient(to bottom right,red,blue,black,green);
+    background-image: linear-gradient(to bottom right,rgba(255,0,0,0),rgba(255,55,44,22));
+}
+
+.mydiv{
+    border: 1px solid black;
+    height: 200px;
+    width: 250px;
+    margin: 5px;
+    background-image: radial-gradient(red,blue);
+    background-image: radial-gradient(red,blue,black,green);
+    background-image: radial-gradient(orange,white,green);
+}
+
+.jio{
+    border: 1px solid black;
+    height: 200px;
+    width: 250px;
+    margin: 5px;
+    background-image: conic-gradient(orange,white,green,pink,red,blue,yellow,black);
+}
